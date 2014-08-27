@@ -1,0 +1,35 @@
+.wrapper {
+  width: 450px;
+  margin: 0 auto;
+}
+
+#slider {
+  height: 450px;
+  width: 450px;
+  overflow: hidden;
+  margin: 30px auto;
+  border: 1px solid black;
+}
+
+#slider > img {
+  width: 450px;
+  height: 450px;
+  float: left;
+  display: none;
+}
+
+a {
+  padding: 5px 10px;
+  background-color: #F0F0F0;
+  color: #666;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+a.left {
+  float: left;
+}
+
+a.right {
+  float: right;
+}
